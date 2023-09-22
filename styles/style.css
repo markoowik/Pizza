@@ -1,0 +1,314 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-size: 18px;
+  background: rgb(91, 124, 41);
+}
+.container {
+  width: 1420px;
+  margin: 0 auto;
+}
+/* wrapper */
+.wrapper {
+  display: flex;
+  justify-content: center;
+}
+.header-logo {
+  background-color: rgba(143, 158, 126, 0.463);
+  display: flex;
+  width: 180px;
+  height: 80px;
+  border-radius: 10px;
+  position: relative;
+  top: 30px;
+  right: 500px;
+}
+.header-logo > img {
+  width: 120px;
+  height: 120px;
+  position: relative;
+  left: 30px;
+  bottom: 20px;
+}
+.header-menu {
+  background-color: rgb(73, 107, 22);
+  width: 400px;
+  height: 80px;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  bottom: 50px;
+  left: 380px;
+}
+.header-menu__list {
+  display: flex;
+  justify-content: space-between;
+}
+.header-menu__link {
+  list-style: none;
+  position: relative;
+  left: 60px;
+}
+.header-menu__link > a {
+  margin: 5px;
+  text-decoration: none;
+  color: #fff;
+  text-transform: uppercase;
+}
+.header-menu__btn {
+  position: relative;
+  left: 150px;
+  bottom: 0px;
+  background-color: rgb(244, 241, 84);
+  width: 200px;
+  height: 80px;
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+  border-bottom-left-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #333;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+/* welcome */
+.welcome {
+  display: flex;
+  justify-content: center;
+}
+.welcome-card {
+  border: 1px solid #887d7d;
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(73, 107, 22);
+  border-radius: 80px;
+}
+.welcome-card__title {
+  height: 100px;
+  width: 400px;
+}
+.welcome-card__title > h1 {
+  color: antiquewhite;
+  font-size: 50px;
+  display: flex;
+  width: 600px;
+  position: relative;
+  right: 90px;
+  top: 120px;
+  text-transform: uppercase;
+}
+.welcome-card__txt > span {
+  font-size: 18px;
+  color: #333;
+  background-color: rgb(244, 241, 84);
+  border-radius: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 170px;
+  height: 50px;
+  text-transform: uppercase;
+  position: relative;
+  left: 80px;
+  top: 50px;
+}
+.welcome-card-img > img {
+  width: 600px;
+  height: 400px;
+}
+.welcome-card__inner {
+  position: relative;
+  right: 490px;
+  top: 190px;
+  height: 70px;
+  width: 200px;
+}
+.welcome-card__inner > p {
+  color: rgb(244, 241, 84);
+  width: 500px;
+  text-transform: uppercase;
+}
+.welcome-card__texts {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+  right: 670px;
+  top: 100px;
+}
+.welcome-card__text {
+  width: 50px;
+  text-transform: uppercase;
+  color: antiquewhite;
+}
+.cardtxt {
+  position: relative;
+  right: 550px;
+}
+.txt > span {
+  display: flex;
+  width: 200px;
+}
+.welcome-card__text::before {
+  content: url("../icons/primitivedot_106373.svg");
+  position: relative;
+  right: 20px;
+  top: 23px;
+}
+/* pizza */
+.pizza {
+  display: flex;
+  justify-content: space-between;
+}
+.pizza-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.pizza-left__cards {
+  position: relative;
+  top: 90px;
+  left: 70px;
+  display: flex;
+  justify-content: space-between;
+}
+.pizza-left__card {
+  margin: -50px;
+}
+.pizza-card__img {
+  border: 1px solid #887d7d;
+  background-color: rgb(73, 107, 22);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+  width: 300px;
+  height: 300px;
+}
+.pizza-card__img > img {
+  width: 250px;
+  height: 250px;
+}
+.pizza-card__title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 70px;
+}
+.pizza-card__title > h1 {
+  color: rgb(226, 226, 226);
+  font-size: 30px;
+  text-transform: uppercase;
+  width: 200px;
+}
+.pizza-card__price {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 70px;
+}
+.pizza-card__price > p {
+  color: rgb(244, 241, 84);
+  font-size: 80px;
+  width: 200px;
+}
+.pizza-card__inner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 120px;
+}
+.pizza-card__inner > p {
+  color: antiquewhite;
+  width: 300px;
+}
+.pizza-card__gramm > p {
+  color: antiquewhite;
+  width: 200px;
+}
+.pizza-card__buttons {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid antiquewhite;
+  background-color: antiquewhite;
+  align-items: center;
+  width: 100px;
+  height: 50px;
+  border-radius: 50px;
+  margin-top: 30px;
+}
+.pizza-card-btn__minus {
+  position: relative;
+  left: 20px;
+}
+.pizza-card-btn__text {
+  position: relative;
+  right: -5px;
+}
+.pizza-card-btn__plus {
+  position: relative;
+  right: 15px;
+}
+.pizza-card-btn__minus > span {
+  color: rgb(91, 124, 41);
+  cursor: pointer;
+}
+.pizza-card-btn__plus > span {
+  color: rgb(91, 124, 41);
+  cursor: pointer;
+}
+.pizza-card-btn__text > span {
+  color: rgb(91, 124, 41);
+}
+.pizza-card__btn {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 430px;
+  margin-top: -50px;
+}
+.pizza-card__btn > a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #333;
+  border: 1px solid rgb(244, 241, 84);
+  background-color: rgb(244, 241, 84);
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 50px;
+}
+.card3 > p {
+  font-size: 19px;
+  text-transform: uppercase;
+  position: relative;
+  top: 100px;
+  right: 370px;
+  text-align: center;
+}
+.pizza-right {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 580px;
+}
+.right-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100px;
+  margin-left: -150px;
+}
