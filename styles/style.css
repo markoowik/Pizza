@@ -312,3 +312,25 @@ body {
   width: 100px;
   margin-left: -150px;
 }
+.btns {
+  position: relative;
+  right: 100px;
+}
+.btn {
+  position: relative;
+  left: 60px;
+  display: flex;
+  width: 200px;
+}
+.gramm {
+  position: relative;
+  right: 45px;
+}
+.price {
+  position: relative;
+  right: 45px;
+}
+.title {
+  position: relative;
+  right: 45px;
+}
