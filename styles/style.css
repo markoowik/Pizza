@@ -334,3 +334,27 @@ body {
   position: relative;
   right: 45px;
 }
+.cards {
+  position: relative;
+  left: -40px;
+  top: 250px;
+}
+.tit {
+  width: 200px;
+}
+.pri {
+  width: 200px;
+}
+.inn {
+  width: 200px;
+}
+.gr {
+  width: 200px;
+}
+.crd {
+  width: 200px;
+}
+.card {
+  position: relative;
+  top: 250px;
+}
